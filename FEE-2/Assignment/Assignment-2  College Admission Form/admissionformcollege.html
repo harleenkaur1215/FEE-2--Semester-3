@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chitkara University Admission Form</title>
+	<link rel="stylesheet" href="admissionformchitkara.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<img src="https://d2lk14jtvqry1q.cloudfront.net/media/small_Chitkara_University_e82e2cafa5_62bf4b4545.png" alt="Chitkara University Logo" width="210px" style="display: inline-block;">
+			<h1 style="display: inline-block;">Chitkara University Admission Form</h1>
+		</div>
+		<form>
+			<div class="form-group">
+				<label for="name">Name:</label>
+				<input type="text" id="name" placeholder="First Name" required>
+				<input type="text" id="name" placeholder="Middle Name">
+				<input type="text" id="name" placeholder="Last Name">
+			</div>
+			<div class="form-group">
+				<label for="dob">Date of birth:</label>
+					<input type="date" id="dob" placeholder="" required>
+			</div>
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" placeholder="Email" required>
+			</div>
+			<div class="form-group">
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone" placeholder="Phone" required>
+			</div>
+			<p>Gender:</p>
+			<div class="form-group">
+				<input type="radio" id="male" name="gender" value="male" style="display: inline-block;">
+                 <label for="male" style="display: inline-block;" >Male</label>
+                <input type="radio" id="female" name="gender" value="female" style="margin-left: 40px;">
+                <label for="female" style="display: inline-block;">Female</label>
+				<input type="radio" id="other" name="gender" value="other" style="margin-left: 40px;">
+                <label for="other" style="display: inline-block;">Other</label><br>
+			</div>
+			<div class="form-group">
+				<label for="course">Course:</label>
+				<select id="course" name="course" required>
+					<option value="">Select Course</option>
+					<option value="B.Tech">B.Tech</option>
+					<option value="BBA">BBA</option>
+					<option value="BCA">BCA</option>
+					<option value="MBA">MBA</option>
+					<option value="M.Tech">M.Tech</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="qualification">Qualification:</label>
+				<input type="text" id="qualification" name="qualification" placeholder="Qualification" required>
+			</div>
+			<div class="form-group">
+				<label for="percentage">Percentage:</label>
+				<input type="number" id="percentage" name="percentage" placeholder="Percentage" required>
+			</div>
+			<div class="form-group">
+			<label for="pg-name">Parent/Guardian's Name:</label>
+			<input type="text" id="pg-name" placeholder="First" required>
+			<input type="text" id="pg-name" placeholder="Middle">
+			<input type="text" id="pg-name" placeholder="Last">
+			</div>
+			<div class="form-group">
+				<label for="address">Permanent Address:</label>
+			
+					<input type="text" id="address" placeholder="Street Address">
+					<input type="text" id="address" placeholder="City">
+					<input type="text" id="address" placeholder="State">
+					<input type="text" id="address" placeholder="Postal/Zip Code">
+					<input type="text" id="address" placeholder="Country">
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Submit" class="submit-btn">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
